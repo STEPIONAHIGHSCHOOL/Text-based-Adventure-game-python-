@@ -35,12 +35,23 @@ def intro():
 intro()
 ```
 classmate from class 1: 
+```python
 
 def intro():
     print("winterwonderland")
     print("welcome to winterwonderland")
-    
-  
+    print("go to the theater")
+    choice = input("Which one do you choose?)
+    if choice == "ballet":
+        ballet_room()
+    elif choice == "mall":
+        mall()
+    else:
+        print("restart")
+        intro()
+def ballet_room():
+    print("You sit down in your seat")
+```
 Class 2: 
 ```python
 def houseoftheclowns():
